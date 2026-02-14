@@ -455,38 +455,3 @@ Issue: ``TypeError: imread() got an unexpected keyword argument 'mode'``
 Solution: The version of ``scipy`` you have installed is too old. You
 need version 0.17 or newer. Upgrade ``scipy``.
 
-Thanks
-------
-
--  Many, many thanks to `Davis King <https://github.com/davisking>`__
-   (`@nulhom <https://twitter.com/nulhom>`__)
-   for creating dlib and for providing the trained facial feature
-   detection and face encoding models
-   used in this library. For more information on the ResNet that powers
-   the face encodings, check out
-   his `blog
-   post <http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html>`__.
--  Thanks to everyone who works on all the awesome Python data science
-   libraries like numpy, scipy, scikit-image,
-   pillow, etc, etc that makes this kind of stuff so easy and fun in
-   Python.
--  Thanks to `Cookiecutter <https://github.com/audreyr/cookiecutter>`__
-   and the
-   `audreyr/cookiecutter-pypackage <https://github.com/audreyr/cookiecutter-pypackage>`__
-   project template
-   for making Python project packaging way more tolerable.
-
-.. |PyPI| image:: https://img.shields.io/pypi/v/face_recognition.svg
-   :target: https://pypi.python.org/pypi/face_recognition
-.. |Build Status| image:: https://travis-ci.org/ageitgey/face_recognition.svg?branch=master
-   :target: https://travis-ci.org/ageitgey/face_recognition
-.. |Documentation Status| image:: https://readthedocs.org/projects/face-recognition/badge/?version=latest
-   :target: http://face-recognition.readthedocs.io/en/latest/?badge=latest
-.. |image3| image:: https://cloud.githubusercontent.com/assets/896692/23625227/42c65360-025d-11e7-94ea-b12f28cb34b4.png
-.. |image4| image:: https://cloud.githubusercontent.com/assets/896692/23625282/7f2d79dc-025d-11e7-8728-d8924596f8fa.png
-.. |image5| image:: https://cloud.githubusercontent.com/assets/896692/23625283/80638760-025d-11e7-80a2-1d2779f7ccab.png
-.. |image6| image:: https://cloud.githubusercontent.com/assets/896692/23625229/45e049b6-025d-11e7-89cc-8a71cf89e713.png
-.. |image7| image:: https://cloud.githubusercontent.com/assets/896692/24430398/36f0e3f0-13cb-11e7-8258-4d0c9ce1e419.gif
-.. |known| image:: https://cloud.githubusercontent.com/assets/896692/23582466/8324810e-00df-11e7-82cf-41515eba704d.png
-.. |unknown| image:: https://cloud.githubusercontent.com/assets/896692/23582465/81f422f8-00df-11e7-8b0d-75364f641f58.png
-
